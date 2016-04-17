@@ -7,7 +7,6 @@ const server = http.createServer((request, response) => {
   router(request, response);
 });
 
-
 server.listen(port, () => {
   process.stdout.write('Server listening on localhost:' + port + '\n');
 });
